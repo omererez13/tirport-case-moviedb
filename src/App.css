@@ -1,0 +1,57 @@
+/* MUI stilleri kullanarak güncellenen kodlar: */
+
+/* App bileşeni için stil */
+.MuiTypography-root.MuiTypography-h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* MovieCard bileşeni için stil */
+.MuiCard-root {
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 750px;
+}
+
+.MuiCard-root:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 0;
+}
+
+.MuiCardMedia-root {
+  width: 80%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.MuiTypography-root.MuiTypography-h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.MuiTypography-root.MuiTypography-body1 {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+/* 600px'den büyük ekranlar için stil */
+@media (min-width: 600px) {
+  .MuiCard-root {
+    padding: 20px;
+  }
+
+  .MuiTypography-root.MuiTypography-h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+
+  .MuiTypography-root.MuiTypography-body1 {
+    font-size: 1.2rem;
+  }}
