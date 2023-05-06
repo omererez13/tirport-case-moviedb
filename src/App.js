@@ -80,6 +80,7 @@ function App() {
             </Button>
           </Grid>
         </Grid>
+        
         <Grid container spacing={3} >
           {getMoviesRows().map((row, index) => (
             <Grid container item xs={12} spacing={3} key={index} justify="center" alignItems="center">
